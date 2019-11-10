@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d3334c6de9a23469f83fd5567f9526, type: 3}
+  m_Name: GameBalance
+  m_EditorClassIdentifier: 
+  playerSpeedGraph:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 400
+      inSlope: 10.759273
+      outSlope: 10.759273
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 18.887062
+      value: 592.4518
+      inSlope: 20.689651
+      outSlope: 20.689651
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 1000
+      inSlope: 36.67331
+      outSlope: 36.67331
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  activeEnemySpeedGraph:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 250
+      inSlope: 1.5412992
+      outSlope: 1.5412992
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.0593963
+    - serializedVersion: 3
+      time: 30
+      value: 1100
+      inSlope: 63.798595
+      outSlope: 63.798595
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.027263839
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  playerFindRefreshRate:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 4
+      inSlope: -0.3554729
+      outSlope: -0.3554729
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.026290165
+    - serializedVersion: 3
+      time: 30
+      value: 1
+      inSlope: -0.060128506
+      outSlope: -0.060128506
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.041869458
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  lazyEnemySpeedGraph:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: 8.884397
+      outSlope: 8.884397
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 24.03369
+      value: 304.64044
+      inSlope: 16.863987
+      outSlope: 16.863987
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.20015058
+    - serializedVersion: 3
+      time: 30
+      value: 400
+      inSlope: 15.983003
+      outSlope: 15.983003
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  patrolEnemySpeedGraph:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 300
+      inSlope: 17.241379
+      outSlope: 17.241379
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 800
+      inSlope: 17.241379
+      outSlope: 17.241379
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
